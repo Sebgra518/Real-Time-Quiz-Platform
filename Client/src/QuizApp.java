@@ -17,7 +17,7 @@ public class QuizApp extends JFrame {
     private CardLayout cardLayout;
     private JPanel mainPanel;
     private APIClientHandler handler = new APIClientHandler();
-    private final JTextField baseUrlField = new JTextField("http:/localhost:3050");
+    private final JTextField baseUrlField = new JTextField("http://localhost:3050");
 
     // --- Welcome Page ---
     private String username = "";

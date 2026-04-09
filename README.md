@@ -14,6 +14,23 @@ The platform allows users to:
 * Host and join real-time quiz sessions
 * Participate in multiplayer quiz gameplay through a GUI client
 
+## Screenshots of Client
+
+### Login
+![Login](images/Login.png)
+
+### Quiz Creator
+![Creator](images/QuizCreator.png)
+
+### Question Creator
+![Game](images/QuestionCreator.png)
+
+### Game Host
+![Results](images/GameHost.png)
+
+### Game
+![Results](images/Game.png)
+
 ## Architecture
 
 ```
@@ -35,6 +52,8 @@ Java Swing Client  ⇄  REST API Server (Java)  ⇄  MySQL (Docker)
 * **JDBC (MySQL Connector/J)**
 * **jBCrypt (password hashing)**
 * **JSON (org.json)**
+
+## Client Screenshots
 
 ---
 
