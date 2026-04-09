@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Who was the first President of the United States?",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+            "John Adams"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "question": "In which year did World War II end?",
+        "options": [
+            "1942",
+            "1945",
+            "1939",
+            "1950"
+        ],
+        "answer": "1945"
+    },
+    {
+        "question": "Which ancient civilization built the pyramids of Giza?",
+        "options": [
+            "Romans",
+            "Greeks",
+            "Egyptians",
+            "Mayans"
+        ],
+        "answer": "Egyptians"
+    },
+    {
+        "question": "Who was known as the 'Maid of Orléans' and became a French heroine?",
+        "options": [
+            "Marie Antoinette",
+            "Joan of Arc",
+            "Catherine de' Medici",
+            "Eleanor of Aquitaine"
+        ],
+        "answer": "Joan of Arc"
+    },
+    {
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": [
+            "Greek Empire",
+            "Roman Empire",
+            "Ottoman Empire",
+            "Persian Empire"
+        ],
+        "answer": "Roman Empire"
+    },
+    {
+        "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+        "options": [
+            "Santa Maria",
+            "Mayflower",
+            "Endeavour",
+            "Beagle"
+        ],
+        "answer": "Mayflower"
+    },
+    {
+        "question": "The Cold War was primarily between which two nations?",
+        "options": [
+            "United States and Germany",
+            "United States and Soviet Union",
+            "China and Japan",
+            "United Kingdom and France"
+        ],
+        "answer": "United States and Soviet Union"
+    },
+    {
+        "question": "Who was the British Prime Minister during most of World War II?",
+        "options": [
+            "Neville Chamberlain",
+            "Winston Churchill",
+            "Margaret Thatcher",
+            "Tony Blair"
+        ],
+        "answer": "Winston Churchill"
+    },
+    {
+        "question": "Which wall famously divided a city during the Cold War?",
+        "options": [
+            "The Great Wall of China",
+            "Berlin Wall",
+            "Hadrian’s Wall",
+            "Iron Curtain"
+        ],
+        "answer": "Berlin Wall"
+    },
+    {
+        "question": "The Renaissance began in which country?",
+        "options": [
+            "France",
+            "Italy",
+            "Germany",
+            "England"
+        ],
+        "answer": "Italy"
+    }
+]

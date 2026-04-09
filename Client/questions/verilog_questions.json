@@ -1,0 +1,206 @@
+[
+  {
+    "question": "Which of the following best describes Verilog?",
+    "options": [
+      "A general-purpose programming language",
+      "A hardware description language (HDL)",
+      "A scripting language for FPGAs",
+      "A low-level assembly language"
+    ],
+    "answer": "A hardware description language (HDL)"
+  },
+  {
+    "question": "Which keyword is used to define a module in Verilog?",
+    "options": [
+      "define",
+      "entity",
+      "module",
+      "architecture"
+    ],
+    "answer": "module"
+  },
+  {
+    "question": "How are inputs and outputs declared in Verilog?",
+    "options": [
+      "Inside the module using 'in' and 'out'",
+      "Inside the module using 'input' and 'output'",
+      "Outside the module using 'port'",
+      "Using the 'signal' keyword"
+    ],
+    "answer": "Inside the module using 'input' and 'output'"
+  },
+  {
+    "question": "What type of assignment is used inside an 'always' block for sequential logic?",
+    "options": [
+      "=",
+      "<=",
+      ":=",
+      "->"
+    ],
+    "answer": "<="
+  },
+  {
+    "question": "Which of the following statements about 'reg' and 'wire' is correct?",
+    "options": [
+      "'reg' is used for combinational logic only",
+      "'wire' can hold a value without being driven",
+      "'reg' can store a value, while 'wire' cannot",
+      "'wire' and 'reg' are interchangeable"
+    ],
+    "answer": "'reg' can store a value, while 'wire' cannot"
+  },
+  {
+    "question": "What is the correct syntax to represent a 4-bit binary number with value 1010 in Verilog?",
+    "options": [
+      "4b'1010",
+      "4'd1010",
+      "4'b1010",
+      "4x1010"
+    ],
+    "answer": "4'b1010"
+  },
+  {
+    "question": "In Verilog, the sensitivity list of an 'always' block is written using which keyword?",
+    "options": [
+      "if",
+      "case",
+      "begin",
+      "@"
+    ],
+    "answer": "@"
+  },
+  {
+    "question": "What does the 'initial' block in Verilog do?",
+    "options": [
+      "Executes continuously",
+      "Executes once at the start of simulation",
+      "Defines hardware registers",
+      "Initializes synthesis constraints"
+    ],
+    "answer": "Executes once at the start of simulation"
+  },
+  {
+    "question": "Which of the following operators performs bitwise AND in Verilog?",
+    "options": [
+      "&&",
+      "||",
+      "&",
+      "and()"
+    ],
+    "answer": "&"
+  },
+  {
+    "question": "What is the main purpose of a testbench in Verilog?",
+    "options": [
+      "To synthesize the circuit",
+      "To simulate and verify the behavior of the design",
+      "To implement FPGA routing",
+      "To define module interfaces"
+    ],
+    "answer": "To simulate and verify the behavior of the design"
+  },
+  [
+    {
+      "question": "What is the purpose of the 'always @(*)' block in Verilog?",
+      "options": [
+        "To describe sequential logic triggered by a clock edge",
+        "To describe combinational logic that reacts to any signal change",
+        "To define a constant signal assignment",
+        "To initialize all registers at startup"
+      ],
+      "answer": "To describe combinational logic that reacts to any signal change"
+    },
+    {
+      "question": "In Verilog, what is the effect of using 'blocking assignment (=)' inside an 'always' block?",
+      "options": [
+        "Statements execute in parallel",
+        "Statements execute sequentially in order",
+        "It prevents simulation delays",
+        "It is only allowed in testbenches"
+      ],
+      "answer": "Statements execute sequentially in order"
+    },
+    {
+      "question": "Which Verilog construct is used to define parameters that can be overridden during module instantiation?",
+      "options": [
+        "localparam",
+        "defparam",
+        "parameter",
+        "const"
+      ],
+      "answer": "parameter"
+    },
+    {
+      "question": "What is the difference between 'posedge clk' and 'negedge clk' in Verilog?",
+      "options": [
+        "'posedge clk' triggers on the falling edge, 'negedge clk' triggers on the rising edge",
+        "Both trigger on every clock transition",
+        "'posedge clk' triggers on the rising edge, 'negedge clk' triggers on the falling edge",
+        "They are interchangeable in all cases"
+      ],
+      "answer": "'posedge clk' triggers on the rising edge, 'negedge clk' triggers on the falling edge"
+    },
+    {
+      "question": "Which of the following correctly declares a 16-bit register named 'data_reg' in Verilog?",
+      "options": [
+        "reg[15] data_reg;",
+        "register[15:0] data_reg;",
+        "reg data_reg[15:0];",
+        "reg [15:0] data_reg;"
+      ],
+      "answer": "reg [15:0] data_reg;"
+    },
+    [
+      {
+        "question": "What is the purpose of the 'always @(*)' block in Verilog?",
+        "options": [
+          "To describe sequential logic triggered by a clock edge",
+          "To describe combinational logic that reacts to any signal change",
+          "To define a constant signal assignment",
+          "To initialize all registers at startup"
+        ],
+        "answer": "To describe combinational logic that reacts to any signal change"
+      },
+      {
+        "question": "In Verilog, what is the effect of using 'blocking assignment (=)' inside an 'always' block?",
+        "options": [
+          "Statements execute in parallel",
+          "Statements execute sequentially in order",
+          "It prevents simulation delays",
+          "It is only allowed in testbenches"
+        ],
+        "answer": "Statements execute sequentially in order"
+      },
+      {
+        "question": "Which Verilog construct is used to define parameters that can be overridden during module instantiation?",
+        "options": [
+          "localparam",
+          "defparam",
+          "parameter",
+          "const"
+        ],
+        "answer": "parameter"
+      },
+      {
+        "question": "What is the difference between 'posedge clk' and 'negedge clk' in Verilog?",
+        "options": [
+          "'posedge clk' triggers on the falling edge, 'negedge clk' triggers on the rising edge",
+          "Both trigger on every clock transition",
+          "'posedge clk' triggers on the rising edge, 'negedge clk' triggers on the falling edge",
+          "They are interchangeable in all cases"
+        ],
+        "answer": "'posedge clk' triggers on the rising edge, 'negedge clk' triggers on the falling edge"
+      },
+      {
+        "question": "Which of the following correctly declares a 16-bit register named 'data_reg' in Verilog?",
+        "options": [
+          "reg[15] data_reg;",
+          "register[15:0] data_reg;",
+          "reg data_reg[15:0];",
+          "reg [15:0] data_reg;"
+        ],
+        "answer": "reg [15:0] data_reg;"
+      }
+    ]
+  ]
+]

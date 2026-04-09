@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which of the following is used to define a class in Java?",
+        "options": [
+            "def",
+            "function",
+            "class",
+            "struct"
+        ],
+        "answer": "class"
+    },
+    {
+        "question": "Which method is the entry point of every Java program?",
+        "options": [
+            "start()",
+            "run()",
+            "main()",
+            "execute()"
+        ],
+        "answer": "main()"
+    },
+    {
+        "question": "Which of the following data types is used to store a single character in Java?",
+        "options": [
+            "char",
+            "string",
+            "Character",
+            "text"
+        ],
+        "answer": "char"
+    },
+    {
+        "question": "Which keyword is used to create an object in Java?",
+        "options": [
+            "new",
+            "create",
+            "build",
+            "construct"
+        ],
+        "answer": "new"
+    },
+    {
+        "question": "What is the default value of an uninitialized boolean variable in Java?",
+        "options": [
+            "true",
+            "false",
+            "0",
+            "null"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Which of the following is NOT a valid access modifier in Java?",
+        "options": [
+            "public",
+            "private",
+            "protected",
+            "visible"
+        ],
+        "answer": "visible"
+    },
+    {
+        "question": "What does the 'static' keyword mean in Java?",
+        "options": [
+            "The variable or method belongs to the class rather than any object",
+            "The variable cannot change",
+            "The variable is shared between multiple threads",
+            "The method cannot be overridden"
+        ],
+        "answer": "The variable or method belongs to the class rather than any object"
+    },
+    {
+        "question": "Which of the following statements correctly declares an array of integers in Java?",
+        "options": [
+            "int arr[];",
+            "array<int> arr;",
+            "int arr = [];",
+            "int arr;"
+        ],
+        "answer": "int arr[];"
+    },
+    {
+        "question": "Which of the following is used to handle exceptions in Java?",
+        "options": [
+            "catch-try",
+            "throw-catch",
+            "try-catch",
+            "handle-except"
+        ],
+        "answer": "try-catch"
+    },
+    {
+        "question": "Which of these keywords is used to inherit a class in Java?",
+        "options": [
+            "extends",
+            "inherits",
+            "implements",
+            "derives"
+        ],
+        "answer": "extends"
+    }
+]

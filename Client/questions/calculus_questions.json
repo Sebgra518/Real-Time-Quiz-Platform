@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the derivative of x² with respect to x?",
+        "options": [
+            "x",
+            "2x",
+            "x²",
+            "1"
+        ],
+        "answer": "2x"
+    },
+    {
+        "question": "What is the derivative of sin(x)?",
+        "options": [
+            "cos(x)",
+            "-sin(x)",
+            "-cos(x)",
+            "tan(x)"
+        ],
+        "answer": "cos(x)"
+    },
+    {
+        "question": "What is the derivative of eˣ?",
+        "options": [
+            "1",
+            "x·eˣ",
+            "eˣ",
+            "ln(e)"
+        ],
+        "answer": "eˣ"
+    },
+    {
+        "question": "The derivative of a constant (like 5) is:",
+        "options": [
+            "5",
+            "1",
+            "0",
+            "Undefined"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "What is the integral of x² dx?",
+        "options": [
+            "x³ / 3 + C",
+            "2x + C",
+            "x² / 2 + C",
+            "x³ + C"
+        ],
+        "answer": "x³ / 3 + C"
+    },
+    {
+        "question": "The derivative of ln(x) is:",
+        "options": [
+            "1/x",
+            "x",
+            "ln(x)·x",
+            "eˣ"
+        ],
+        "answer": "1/x"
+    },
+    {
+        "question": "If f(x) = 3x³, what is f′(x)?",
+        "options": [
+            "3x²",
+            "9x²",
+            "x³",
+            "6x"
+        ],
+        "answer": "9x²"
+    },
+    {
+        "question": "What is the derivative of cos(x)?",
+        "options": [
+            "-sin(x)",
+            "sin(x)",
+            "cos(x)",
+            "-cos(x)"
+        ],
+        "answer": "-sin(x)"
+    },
+    {
+        "question": "The integral of 1/x dx is:",
+        "options": [
+            "ln(x) + C",
+            "x + C",
+            "1/x + C",
+            "eˣ + C"
+        ],
+        "answer": "ln(x) + C"
+    },
+    {
+        "question": "If f′(x) = 0 for all x, what can we say about f(x)?",
+        "options": [
+            "f(x) is constant",
+            "f(x) is linear",
+            "f(x) is increasing",
+            "f(x) is exponential"
+        ],
+        "answer": "f(x) is constant"
+    }
+]

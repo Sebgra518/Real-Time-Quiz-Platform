@@ -1,0 +1,32 @@
+name: Java Quiz Server
+services:
+  server:
+    container_name: java-server
+    build: .
+    ports:
+      - "3050:3050"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: quizdb
+      DB_USER: user
+      DB_PASSWORD: password
+
+  db:
+    container_name: java-db
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_DATABASE: quizdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

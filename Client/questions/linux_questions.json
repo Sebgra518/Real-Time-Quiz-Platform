@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which command is used to list files and directories in Linux?",
+        "options": [
+            "ls",
+            "dir",
+            "list",
+            "show"
+        ],
+        "answer": "ls"
+    },
+    {
+        "question": "Which command is used to change the current directory in Linux?",
+        "options": [
+            "cd",
+            "chdir",
+            "pwd",
+            "mv"
+        ],
+        "answer": "cd"
+    },
+    {
+        "question": "What does the 'pwd' command display?",
+        "options": [
+            "Prints the current directory path",
+            "Prints a file list",
+            "Deletes a directory",
+            "Shows user information"
+        ],
+        "answer": "Prints the current directory path"
+    },
+    {
+        "question": "Which command is used to copy files in Linux?",
+        "options": [
+            "copy",
+            "cp",
+            "mv",
+            "clone"
+        ],
+        "answer": "cp"
+    },
+    {
+        "question": "Which symbol is used to redirect the output of a command to a file?",
+        "options": [
+            "&",
+            ">",
+            "|",
+            "<"
+        ],
+        "answer": ">"
+    },
+    {
+        "question": "What is the command to view the contents of a file?",
+        "options": [
+            "cat",
+            "show",
+            "view",
+            "read"
+        ],
+        "answer": "cat"
+    },
+    {
+        "question": "Which command is used to remove a file in Linux?",
+        "options": [
+            "rm",
+            "del",
+            "erase",
+            "delete"
+        ],
+        "answer": "rm"
+    },
+    {
+        "question": "Which command displays the first 10 lines of a file by default?",
+        "options": [
+            "tail",
+            "head",
+            "top",
+            "less"
+        ],
+        "answer": "head"
+    },
+    {
+        "question": "What does the 'chmod' command do?",
+        "options": [
+            "Changes file permissions",
+            "Changes file owner",
+            "Moves a file",
+            "Deletes a file"
+        ],
+        "answer": "Changes file permissions"
+    },
+    {
+        "question": "Which command is used to search for a pattern in files?",
+        "options": [
+            "search",
+            "find",
+            "grep",
+            "locate"
+        ],
+        "answer": "grep"
+    }
+]
