@@ -1,22 +1,7 @@
-name: Java Quiz Server
 services:
-  server:
-    container_name: java-server
-    build: .
-    ports:
-      - "3050:3050"
-    depends_on:
-      - db
-    environment:
-      DB_HOST: db
-      DB_PORT: 3306
-      DB_NAME: quizdb
-      DB_USER: user
-      DB_PASSWORD: password
-
   db:
     container_name: java-db
-    image: mysql:8
+    image: mysql:8.0
     restart: always
     environment:
       MYSQL_DATABASE: quizdb
@@ -27,6 +12,27 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+      - ./db-init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost", "-prootpassword" ]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  server:
+    container_name: java-server
+    build: .
+    ports:
+      - "3050:3050"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: quizdb
+      DB_USER: user
+      DB_PASSWORD: password
 
 volumes:
   mysql_data:

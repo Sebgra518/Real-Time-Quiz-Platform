@@ -10,9 +10,14 @@ import org.mindrot.jbcrypt.BCrypt; // if you use BCrypt for password hashing
 public class DB {
 
     // --- Configure ---
-    private static final String JDBC_URL = "jdbc:mysql://192.168.254.161:3306/quizdata?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-    private static final String JDBC_USER = "root";
-    private static final String JDBC_PASS = "password";
+    private static final String DB_HOST = getenv("DB_HOST", "localhost");
+    private static final String DB_PORT = getenv("DB_PORT", "3306");
+    private static final String DB_NAME = getenv("DB_NAME", "quizdb");
+    private static final String DB_USER = getenv("DB_USER", "root");
+    private static final String DB_PASSWORD = getenv("DB_PASSWORD", "");
+
+    private static final String JDBC_URL = "jdbc:mysql://" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME +
+            "?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 
     // Load BCrypt Driver
     static {
@@ -22,9 +27,14 @@ public class DB {
         }
     }
 
+    private static String getenv(String key, String defaultValue) {
+        String value = System.getenv(key);
+        return (value == null || value.isBlank()) ? defaultValue : value;
+    }
+
     // Get a new DB connection (caller should use try-with-resources).
     public Connection connect() throws SQLException {
-        return DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASS);
+        return DriverManager.getConnection(JDBC_URL, DB_USER, DB_PASSWORD);
     }
 
     // --- CATEGORIES ---
